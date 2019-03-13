@@ -6,24 +6,32 @@ To begin with, we have a **hospital** that is characterized by its
   1. Name
   2. Departments (e.g. Cardiology, Elderly services, Gastroenterology, General Surgery, Gynecology, etc)
 
-Now, of course every hospital employs doctors. Every doctor has the characteristics described below.
+Now, of course every hospital employs **doctors**. Every doctor has the characteristics described below.
   1. Name & Nickname
   2. Residency
   3. A unique doctor - code. Each user can ask for this code and the system should provide the code automatically
   
-The hospital treats patients. The characteristics of each patient are
+The hospital treats patients. The characteristics of each **patient** are
   1. Name & Nickname
   2. Social Security Number (SSN)
   
-Every hospital has a record made up of all the patient files. Now, every patient file is characterized by its
+Every hospital has a record made up of all the **patient files**. Now, every patient file is characterized by its
   1. Name of patient
   2. Primary Doctor
   3. Check in date
   4. Check out date
-  5. The medical exams which the patient did during its treatment. We consider that the medical exams cannot be more than 5
+  5. The medical exams which the patient did during its treatment. We consider that the medical exams can't be more than 5
   6. The date of each of the medical exams. In fact, every medical exam must me matched with a date.
   
-Last but not least, every medical exam is characterized by its
+Last but not least, every **medical exam** is characterized by its
   1. Name
   2. A unique medical exam - code. Each user can ask for this code and the system should provide the code automatically
   
+## Functionalities of the System 
+The system supports the following functionalities.
+
+- Insert data of the hospital. (For simplicity, we suppose that there only two registered hospitals.) Whenever a user chooses this option he must enter the hospital's data.
+- Insert medical exam. Whenever a user chooses this option he must enter the medical exam's data.
+- Insert doctor. Whenever a user chooses this option he must enter the doctor's data.
+- Insert patient. Whenever a user chooses this option he must enter the patient's data.
+- Insert patient's medical file. Whenever a user chooses this option
