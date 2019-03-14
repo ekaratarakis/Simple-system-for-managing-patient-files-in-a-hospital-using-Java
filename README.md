@@ -46,7 +46,7 @@ The system supports the following functionalities.
 
 ## Assuptions
 
-- We can assume that the maximum number of patients, doctors, patient's files and medical exams cannot be more than 100 in order to create the suitable matrices wherever is needed
-- We can assume for simplicity that all the data are registered in the main memory
+- We can assume that the maximum number of patients, doctors, patient's files and medical exams cannot be more than 100 in order to create the suitable matrices wherever is needed.
+- We can assume for simplicity that all the data are registered in the main memory.
 
 When the program starts it must print the right menu for the user in order to choose one of the options above. The menu must also provide the exit option which will terminate the excecution.
