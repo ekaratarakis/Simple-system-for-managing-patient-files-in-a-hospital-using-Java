@@ -34,4 +34,19 @@ The system supports the following functionalities.
 - Insert medical exam. Whenever a user chooses this option he must enter the medical exam's data.
 - Insert doctor. Whenever a user chooses this option he must enter the doctor's data.
 - Insert patient. Whenever a user chooses this option he must enter the patient's data.
-- Insert patient's medical file. Whenever a user chooses this option
+- Insert patient's medical file. Whenever a user chooses this option he must enter all the data included in the patient's medical file. Thus,
+  1. Patient's hospital
+  2. One or more medical exams that the patient has done and the date(s) when the exam took place.
+  3. Patient's primary doctor. If the doctor is not registered the system must print a message
+  4. From the patients' list, all the data of the patient that are includen in the patient's file. If the patient is not registered the system must print a message
+  5. The rest of the data that included in the file (e.g. check in date, check out date etc)
+- Delete patient according to SSN. Whenever a user chooses this option, he must enter the name of the patient to be deleted and the system must delete automatically all the patients files
+- Find and print patient file. Whenever a user chooses this option he can search for a patient's file according to the SSN or the hospitan and the length of time between the check in date and the check out date
+- Print all the data of all medical exams/ doctors/ patients/ medical files
+
+## Assuptions
+
+- We can assume that the maximum number of patients, doctors, patient's files and medical exams cannot be more than 100 in order to create the suitable matrices wherever is needed
+- We can assume for simplicity that all the data are registered in the main memory
+
+When the program starts it must print the right menu for the user in order to choose one of the options above. The menu must also provide the exit option which will terminate the excecution.
