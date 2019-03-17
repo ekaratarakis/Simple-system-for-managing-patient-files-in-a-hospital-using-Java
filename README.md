@@ -48,5 +48,6 @@ The system supports the following functionalities.
 
 - We can assume that the maximum number of patients, doctors, patient's files and medical exams cannot be more than 100 in order to create the suitable matrices wherever is needed.
 - We can assume for simplicity that all the data are registered in the main memory.
+- In Java programming it is prefered that all the methods are implemented in their classes and never in the main class. In the system the implementation of all the methods lies in the main class. This was done in purpose and it is a nice opportunity for anyone to exersise by rearranging them in their classes.
 
 When the program starts it must print the right menu for the user in order to choose one of the options above. The menu must also provide the exit option which will terminate the excecution.
